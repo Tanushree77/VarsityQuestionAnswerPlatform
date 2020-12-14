@@ -1,0 +1,335 @@
+.warapper-border {
+  padding: .625rem 1.825rem .625rem 2.5rem;
+  border: 1px #ccc dashed;
+  position: relative;
+  margin: 0 0 .625rem 0;
+  background-color: #ffffff;
+}
+.warapper-border:before,
+.warapper-border:after {
+  display: table;
+  content: "";
+}
+.warapper-border:after {
+  clear: both;
+}
+.warapper-border:before {
+  position: absolute;
+  content: attr(data-text);
+  text-transform: lowercase;
+  left: 1.5rem;
+  top: 11.875rem;
+  color: gray;
+  display: block;
+  font-size: 1rem;
+  line-height: 1rem;
+  height: 1rem;
+  text-align: right;
+  white-space: nowrap;
+  direction: ltr;
+  width: 12.5rem;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+
+.page-content {
+    padding-top: 48px;
+
+    padding-bottom: 5em;
+}
+
+.color-list li {
+    display: inline-block;
+    padding: 10px;
+    width: 14.2857%;
+}
+
+.prettyprint {
+    background-color: #eeeeee;
+    border: 0 !important;
+    border-width: 1px !important;
+    border-color: #eeeeee !important;
+    border-left: 8px #555555 solid !important;
+}
+
+.prettyprint ol {
+    background-color: transparent !important;
+}
+
+.prettyprint li {background-color: white !important; list-style-type: decimal !important; padding-left: 1em; border-bottom: 1px #eee solid;}
+.prettyprint li:last-child{border-bottom: 0;}
+.prettyprint code .tag {
+    font-size: .7rem;
+}
+
+.prettyprint {
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.demo-grid .row > .cell {
+    padding: 10px;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    border: 1px #000 solid;
+}
+
+.thumb {
+    background: white;
+    padding: 4px;
+    display: inline-block;
+    height: 2.375rem;
+    width: 2.375rem;
+    border: 1px transparent solid;
+    cursor: pointer;
+}
+/*
+@media screen and (max-width: 800px) {
+    .app-bar.fixed-top {
+        position: relative !important;
+        background-color: #7a61d4;
+    }
+    .page-content {
+        padding-top: 0 !important;
+    }
+}
+*/
+.app-bar.fixed-top{
+    position: relative !important;
+    background-color: #bd272e;
+
+}
+
+@media screen and (max-width: 640px) {
+    .page-content {
+        padding-top: 32px;
+    }
+}
+
+
+
+.fc {
+    text-align: center;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+    text-align: left;
+    margin: 0 auto;
+}
+.fr {
+    float: right;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.QuestionList {
+    padding-bottom: 2em;
+}
+
+.QuestionList-title {
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+.QuestionList-avatar {
+    border-radius: 50px;
+    float: right;
+    margin-left: 1em;
+}
+
+.QuestionList-description {
+    color: #444;
+    line-height: 1.8em;
+}
+
+.QuestionList-meta {
+    color: #999;
+    font-size: 90%;
+}
+
+.QuestionList-category {
+    margin: 0 0.1em;
+    padding: 0.1em 0.5em 0.2em;
+    background: #999;
+    font-size: 80%;
+}
+    .QuestionList-category-design {
+        background: #5aba59;
+    }
+    .QuestionList-category-pure {
+        background: #4d85d1;
+    }
+    .QuestionList-category-yui {
+        background: #8156a7;
+    }
+    .QuestionList-category-js {
+        background: #df2d4f;
+    }
+
+.QuestionList-category.QuestionList-category-js {
+    color: rgb(255, 255, 255);
+}
+
+.QuestionList-images {
+    margin: 1em 0;
+}
+
+.QuestionList-image-meta {
+    margin-top: -3.5em;
+    margin-left: 1em;
+    color: #fff;
+    text-shadow: 0 1px 1px #333;
+}
+
+.login-form {
+    width: 25rem;
+    position: fixed;
+    top: 35%;
+    margin-top: -9.375rem;
+    left: 50%;
+    margin-left: -12.5rem;
+    background-color: #ffffff;
+    opacity: 0;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+}
+
+.login-form .padding10.bg-red.fg-white.text-accent,
+.errors.padding10.bg-red.fg-white.text-accent
+{
+	margin-bottom: 0.5em;
+}
+
+.login-form .padding10.bg-red.fg-white.text-accent p,
+.errors.padding10.bg-red.fg-white.text-accent p
+{
+	font-size: 13px;
+	margin: 0;
+}
+
+.signup-form {
+    margin: 0 auto 3em;
+    width: 25rem;
+    left: 50%;
+    background-color: #ffffff;
+    opacity: 0;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+}
+
+.signup-form .padding10.bg-red.fg-white.text-accent {
+	margin-bottom: 0.5em;
+}
+
+.signup-form .padding10.bg-red.fg-white.text-accent p {
+	font-size: 13px;
+	margin: 0;
+}
+
+.footer {
+    background-color: #EFEAE3;
+    /*position: absolute;*/
+    bottom: 0px;
+    width: 100%;
+}
+
+/*.footer-relative {
+    position: relative;
+}*/
+
+.land-bar {
+    padding-top: 3em;
+}
+
+.land-bar-title {
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.land-bar-description {
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+.latest-question {
+    margin: 3em 0;
+}
+
+.pic-user {
+    height: 25px;
+    border-radius: 50%;
+    width: 25px;
+}
+
+.capitalize {
+    text-transform: capitalize !important;
+}
+
+.vote_question span[class*=mif-] {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: rgb(65, 82, 156);
+}
+
+.vote_answer span[class*=mif-] {
+    font-size: 1.3rem;
+    color: #999;
+}
+
+.vote_answer button span[class*=mif-] {
+    color: #fff;
+}
+
+.title_qa {
+    font-size: 28px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+strong.select2-results__group {
+    display: none !important;
+}
+
+.select2-container .select2-selection--single {
+    height: 34px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 34px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    margin-top: 1px !important;
+}
+
+.messages {
+    padding: .625rem;
+    font-size: 1rem !important;
+    line-height: 25px;
+}
+
+.numeric-list.large-bullet.list-ac li:before, .simple-list.large-bullet.list-ac li:before,
+.numeric-list.list-ac li:before, .simple-list.list-ac li:before {
+    top: 2rem !important;
+    margin-left: 0 !important;
+}
+
+.numeric-list.default-bullet>li:before {
+    margin-top: -1rem;
+}
+.numeric-list.default-bullet li:before, .simple-list.default-bullet li:before {
+    line-height: 1.25rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-top: -1rem;
+}
+
+.numeric-list.default-bullet li, .simple-list.default-bullet li {
+    margin: 10px 0;
+    padding-left: 18px;
+}
