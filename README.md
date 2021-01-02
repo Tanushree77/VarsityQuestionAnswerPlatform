@@ -1,1 +1,1 @@
-# vqa
+# Varsity Question Answer Platform
