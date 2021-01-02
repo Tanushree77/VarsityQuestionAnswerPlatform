@@ -7,8 +7,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-
-
 $autoload['packages'] = array();
 
 
@@ -18,10 +16,11 @@ $autoload['libraries'] = array('database', 'form_validation', 'user_agent', 'qa_
 
 
 
-
-
-
 $autoload['model'] = array('qa_model');
+
+
+
+
 
 
 

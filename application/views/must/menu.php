@@ -7,8 +7,7 @@
                 <a href="" class="dropdown-toggle"> Menu</a>
                 <ul class="d-menu" data-role="dropdown">
                     <li><a href="<?php echo base_url('questions'); ?>">Questions</a></li>
-                    <li><a href="<?php echo base_url('questions/unanswereds'); ?>"> Unanswereds</a></li>
-                    <li><a href="<?php echo base_url('questions/most-view'); ?>"> Most View</a></li>
+                    
                 </ul>
             </li>
             <li>
